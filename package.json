@@ -1,0 +1,40 @@
+{
+  "name": "hapi-example",
+  "version": "1.0.0",
+  "description": "A simple happi application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaxscape/hapi-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajaxscape/hapi-example/issues"
+  },
+  "homepage": "https://github.com/ajaxscape/hapi-example#readme",
+  "dependencies": {
+    "@envage/hapi-pg-rest-api": "^4.1.2",
+    "@hapi/hapi": "^18.3.1",
+    "@hapi/vision": "^5.5.2",
+    "del": "^4.1.1",
+    "dotenv": "^8.0.0",
+    "govuk-frontend": "^2.11.0",
+    "nunjucks": "^3.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "nodemon": "^1.19.0",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "ignore": [
+      "node_modules/",
+      "public/"
+    ]
+  }
+}
